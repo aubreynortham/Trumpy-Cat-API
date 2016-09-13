@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# added per the heroku deploy process
+ruby '2.3.1'
 # add cors to enable cross origin reqs
 gem 'rack-cors', :require => 'rack/cors'
 
